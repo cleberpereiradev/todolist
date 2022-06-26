@@ -1,0 +1,85 @@
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+header{
+    width: 100%;
+    background-color: orange;
+}
+.container-top{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-bottom: 48px;
+}
+.titulo-top{
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.container-tabela{
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+    gap: 48px;
+    
+}
+.titulo-tabela{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+}
+.tabela{
+    width: 100%;
+}
+.conteudo-tabela{
+    margin: auto;
+}
+td, th {
+	padding: .7em;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+.container-form{
+    display: flex;
+    flex-flow: row wrap;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    gap: 48px;
+    padding-top: 48px;
+}
+.conteudo-form{
+    width: 100%;
+}
+.titulo-form{
+    width: 100%;
+    font-size: 48px;
+    text-align: center;
+}
+.campo-maior{
+    display: inline-block;
+    padding: .5em;
+    width: 100%;
+}
+.campo-maior input{
+    width: 100%;
+}
+.campo{
+    text-align: center;
+    padding: .5em;
+}
+.campo-btn{
+    text-align: center;
+    padding: .5em;
+}

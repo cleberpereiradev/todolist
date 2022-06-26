@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>To do list</title>
+		<link rel="icon" href="faviconcblk.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/indexcblk.css">
+	</head>
+    <body>
+        <header>
+            <div class="container-top">
+                <a class="titulo-top" href="indextodo.html">To do List!</a>
+                <div class="btn-top">
+                    <button>Login</button>
+                    <button>Cadastro</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="container-tabela">
+                <div class="titulo-tabela">
+                    <h2>Minhas atividades</h2>
+                </div>
+                <div class="tabela">
+                    <table id="tabela-tarefas" class="conteudo-tabela">
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Descrição</th>
+                                <th>Dia</th>
+                                <th>Situação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Trabalhar</td>
+                                <td>Concluir atividades do projeto To Do List!</td>
+                                <td>27/06/2022 - 17:30</td>
+                                <td>Em andamento</td>
+                            </tr>
+                            <tr>
+                                <td>Estudar</td>
+                                <td>Continuar curso de Javascript</td>
+                                <td>27/06/2022 - 18:30</td>
+                                <td>Aguardando conclusão</td>
+                            </tr>
+                            <tr>
+                                <td>Jogar video-game</td>
+                                <td>Continuar campanha do Hades</td>
+                                <td>27/06/2022 - 20:30</td>
+                                <td>Aguardando conclusão</td>
+                            </tr>
+                            <tr>
+                                <td>Dormir</td>
+                                <td>Tempo de relaxar e dormir</td>
+                                <td>27/06/2022 - 22:30</td>
+                                <td>Aguardando conclusão</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section class="container-form">
+                <div class="titulo-form">
+                    <h2>Adicionar nova tarefa</h2>
+                </div>
+                <div class="conteudo-form">
+                    <form id="form-adiciona">
+                        <div class="campo-maior">
+                            <label for="nome">Atividade</label>
+                            <input id="nome" type="text" name="nome" placeholder="Digite o nome da atividade">
+                        </div>
+                        <div class="campo-maior">
+                            <label for="descricao">Descrição</label>
+                            <input id="descricao" type="text" name="descricao" placeholder="Descrição da atividade">
+                        </div>
+                        <div class="campo">
+                            <label for="data">Data</label>
+                            <input id="data" type="datetime-local" name="data">
+                        </div>
+                        <div class="campo-btn">
+                            <button id="adiciona-tarefa">Adicionar</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <script src="js/principalcblk.js"></script>
+    </body>
+</html>
