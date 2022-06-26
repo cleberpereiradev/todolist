@@ -33,6 +33,8 @@ botaoAdicionar.addEventListener("click", function(event){
 
     tabela.appendChild(tarefaTr);
     
+    form.reset();
+    
 })
 
 
